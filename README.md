@@ -1,9 +1,10 @@
 <div align="center">
     <h1>Happy</h1>
     <div id="logo-content">
-        <img src="./src/images/logo-Readme.svg">
+        <img src="./src/images/logo-readme.svg">
     </div>
-
+    
+</br>
 Plataforma de localização de orfanatos na NWL#03 (Next Level Week) pela [Rocketseat](https://rocketseat.com.br)
 
 </div>
