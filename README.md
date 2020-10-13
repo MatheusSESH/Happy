@@ -1,7 +1,7 @@
 <div align="center">
     <h1>Happy</h1>
     <div id="logo-content">
-        <img style="border-radius: 6px" src="./src/images/logo-readme.svg">
+        <img style="border-radius: 6px" src="./web/src/images/logo-readme.svg">
     </div>
 
 </br>
