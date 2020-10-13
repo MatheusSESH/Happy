@@ -25,13 +25,13 @@ Pré-requisitos:
 
 Tecnologias:
 
-
 * [React](https://reactjs.org)
 * [React Native](https://reactnative.dev)
 * [TypeScript](https://www.typescriptlang.org)
 
 </br>
-<strong>Layout</strong>
+
+<strong>Layout:</strong>
 
 Figma: [Web](https://www.figma.com/file/xL2SiFEW8pQ98BHqKZYay0/Happy-Web-(Copy)?node-id=0%3A1) 
 
