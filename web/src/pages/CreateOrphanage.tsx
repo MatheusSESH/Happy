@@ -1,7 +1,7 @@
 import React, { FormEvent, useState, ChangeEvent } from "react";
 import { Map, Marker, TileLayer } from 'react-leaflet';
 import { LeafletMouseEvent } from 'leaflet'
-import { useHistory } from 'react-router-dom';
+import { Link, useHistory } from 'react-router-dom';
 
 import { FiPlus } from "react-icons/fi";
 import api from "../services/api";
@@ -194,13 +194,14 @@ export default function CreateOrphanage() {
             </div>
           </fieldset>
 
-          <button className="confirm-button" type="submit">
-            Confirmar
-          </button>
+          <Link to="/orphanages/create-successful"> 
+            <button className="confirm-button" type="submit">
+              Confirmar
+            </button>
+          </Link>
+          
         </form>
       </main>
     </div>
   );
 }
-
-// return `https://a.tile.openstreetmap.org/${z}/${x}/${y}.png`;

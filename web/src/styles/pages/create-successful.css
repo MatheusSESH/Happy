@@ -1,0 +1,83 @@
+#page-successful-container {
+    width: 100vw;
+    height: 100vh;
+    background: #37C77F;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#page-successful-container .content-wrapper {
+    position: relative;
+
+    width: 100%;
+    max-width: 1100px;
+
+    height: 100%;
+    max-height: 680px;
+
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+
+    background: url(../../images/logo-successful.svg) no-repeat 85% center;
+}
+
+#page-successful-container .content-wrapper main {
+    max-width: 350px;
+}
+
+#page-successful-container .content-wrapper main h1{
+    
+    width: 249px;
+    height: 80px;
+    
+    position: absolute;
+    left: 21.94%;
+    right: 60.76%;
+    top: 29.39%;
+    bottom: 60.85%;
+
+    font-size: 80px;
+    font-weight: 800;
+    line-height: 80px;
+    text-align: center;
+}
+
+#page-successful-container .content-wrapper main p {
+    width: 392px;
+    height: 102px;
+
+    position: absolute;
+    left: 16.94%;
+    right: 55.83%;
+    top: 43.05%;
+    bottom: 44.51%;
+
+    font-weight: 600;
+    font-size: 24;
+    line-height: 34px;
+    text-align: center;
+}
+
+#page-successful-container .content-wrapper button.button-goMap {
+    width: 243px;
+    height: 64px;
+
+    position: absolute;
+    left: 22.15%;
+    right: 60.97%;
+    top: 62.8%;
+    bottom: 29.39%;
+
+    background: #31B272;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 20px;
+    
+    transition: background-color 0.2s;
+}
+#page-successful-container .content-wrapper button.button-goMap:Hover {
+    background: #3BD689;
+}
