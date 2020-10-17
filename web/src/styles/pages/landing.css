@@ -7,17 +7,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 
 #page-landing .content-wrapper {
-    position: relative;
+    position: absolute;
 
     width: 100%;
-    max-width: 1300px;
-
     height: 100%;
-    max-height: 680px;
+    
+    max-width: 1325px;
+    max-height: 700px;
 
     display: flex;
     align-items: flex-start;
@@ -26,9 +27,14 @@
 
     background: url(../../images/landing.svg) no-repeat 80% center;
 }
+
+#page-landing .content-wrapper img{
+    padding: 10px 20px;
+}
+
 #page-landing .content-wrapper main{
     max-width: 350px;
-    padding-top: 90px;
+    padding-left: 20px;
 }
 #page-landing .content-wrapper main h1 {
     font-size: 76px;
@@ -42,7 +48,10 @@
 }
 
 .content-wrapper .location {
-    position: relative;
+    position: absolute;
+
+    padding: 10px 300px;
+    left: 0;
 
     font-size: 24px;
     line-height: 34px;
@@ -56,10 +65,10 @@
 }
 
 
-.content-wrapper .enter-app {
+.content-wrapper a.enter-app {
     position: absolute;
-    right: 0;
-    bottom: 0;
+    right: 20px;
+    bottom: 30px;
 
     width: 80px;
     height: 80px;
@@ -72,6 +81,69 @@
 
     transition: background-color 0.2s
 }
-.content-wrapper .enter-app:hover{
+.content-wrapper a.enter-app:hover{
     background: #96feff;
+}
+
+#page-landing .content-wrapper a.enter-login button{
+    width: 222px;
+    height: 56px;
+
+    position: absolute;
+    right: 20px;
+    top: 10px;
+
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    border-radius: 20px;
+    border: 0;
+    color: #FFFFFF;
+
+    background: #12D4E0;
+
+}
+
+#page-landing .content-wrapper a.enter-login button:hover {
+    background: #96FEFF; 
+    color: #15C3D6
+}
+
+
+
+@media (max-width: 1325px)  {
+    #page-landing .content-wrapper {
+        padding-top: 20px;
+        max-width: 1100px;
+        max-height: 800px;
+        background: url(../../images/landing.svg) no-repeat 80% top;
+    }
+
+    #page-landing .content-wrapper a.enter-login button {
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 900px) {
+    #page-landing .content-wrapper{
+        background-image: none;
+    }
+
+    #page-landing .content-wrapper main {
+        position: relative;
+
+        max-width: 900px;
+
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media (max-height: 622px) {
+    #page-landing {
+        position: relative;
+    }
 }

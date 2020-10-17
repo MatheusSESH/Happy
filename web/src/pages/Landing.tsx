@@ -27,7 +27,7 @@ function Landing() {
             <FiArrowRight size={26} color="rgba(0, 0, 0, 0.6)" />
           </Link>
 
-          <Link to="/login" className="enter-dashboard">
+          <Link to="/login" className="enter-login">
             <button>Acesso Restrito</button>
           </Link>
         </div>
