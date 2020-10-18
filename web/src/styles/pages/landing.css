@@ -99,6 +99,7 @@
     border-radius: 20px;
     border: 0;
     color: #FFFFFF;
+    cursor: pointer;
 
     background: #12D4E0;
 
@@ -107,9 +108,8 @@
 #page-landing .content-wrapper a.enter-login button:hover {
     background: #96FEFF; 
     color: #15C3D6
+    
 }
-
-
 
 @media (max-width: 1325px)  {
     #page-landing .content-wrapper {

@@ -1,0 +1,51 @@
+.app-login {
+    width: 100vw;
+    height: 100vh;
+
+    background: linear-gradient(329.54deg, #29B6D1 0%, #00C7C7 100%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-login .app-content {
+    
+    max-width: 260px;
+    height: 234px;
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.app-login .app-content img {
+    width: 100%;
+       
+}
+.app-login .app-content h1 {
+    font: 800 84px Nunito, sans-serif ;
+}
+
+
+.app-login .location {
+    padding-top: 100px;
+
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+
+    font-size: 24px;
+    line-height: 34px
+}
+.app-login .location strong {
+    font-weight: 800;
+}
+.app-login .location span {
+    font-weight: 600;
+}
+
