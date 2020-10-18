@@ -21,12 +21,12 @@ export default function loginUser() {
 
                     <div className="input-block">
                         <label htmlFor="email">E-mail</label>
-                        <input />
+                        <input type="email" required/>
                     </div>
 
                     <div className="input-block">
                         <label htmlFor="password">Senha</label>
-                        <input type="password"/>
+                        <input type="password" pattern="{1}"  required/>
                     </div>
 
                     <div className="login-options">

@@ -65,8 +65,8 @@ form.login-form .input-block {
     justify-content: center;
     align-items: right;
     flex-direction: column;
-    margin-bottom: 20px;
 
+    margin-bottom: 20px;
 }
 
 
@@ -81,16 +81,26 @@ form.login-form .input-block label {
     margin-bottom: 8px;
 }
 
-form.login-form .input-block input {
+form.login-form .input-block input{
     width: 360px;
     height: 64px;
 
     padding: 24px;
 
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+
+    color: #5C8599;
+
     border-radius: 20px;
-    border: 1px solid #D3E2E5 ;
     box-sizing: border-box;
+    border: 1px solid #D3E2E5 ;
     background: #F5F8FA;
+}
+
+form.login-form .input-block input:valid{
+    border: 1px solid #A1E9C5;
 }
 
 form.login-form .login-options {
