@@ -10,7 +10,6 @@ import '../styles/pages/create-orphanage.css';
 import Sidebar from "../components/Sidebar";
 import mapIcon from "../utils/mapIcon";
 
-
 export default function CreateOrphanage() {
   const history = useHistory();
 
@@ -122,7 +121,7 @@ export default function CreateOrphanage() {
             <div className="input-block">
               <label htmlFor="about">Sobre <span>Máximo de 300 caracteres</span></label>
               <textarea 
-                id="name" 
+                id="about" 
                 maxLength={300} 
                 value={about} 
                 onChange={event => setAbout(event.target.value)}  
