@@ -13,7 +13,7 @@ function Routes() {
     return(
         <BrowserRouter>
             <Switch>
-                <Route path="/home" exact component={Landing} />
+                <Route path="/" exact component={Landing} />
                 <Route path="/login" component={Login} />
                 <Route path="/forgot-password" component={ForgetPassword} />
                 <Route path="/app" component={OrphanageMap} />

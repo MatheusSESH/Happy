@@ -12,7 +12,7 @@ export default function loginUser() {
         <div className="login-content">
             <LoginApp/>
             <main className="container-form">
-                    <Link to="/home" className="arrow-goBack">
+                    <Link to="/" className="arrow-goBack">
                         <FiArrowLeft size={24} color="#15b6d6"/>
                     </Link>
                 <form className="login-form">
@@ -37,7 +37,7 @@ export default function loginUser() {
                         </Link>
                     </div>
                     
-                    <Link to="/home"> 
+                    <Link to="/"> 
                         <button className="login-user" type="submit">
                             Entrar
                         </button>
