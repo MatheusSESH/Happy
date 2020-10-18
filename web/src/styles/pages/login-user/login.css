@@ -33,7 +33,7 @@
 
 
 .container-form a button.signup-user{
-    width: 100px;
+    width: 120px;
     height: 48px;
 
     position: absolute;
@@ -80,7 +80,7 @@ form.login-form legend {
     
     padding-top: 20%;
     margin-bottom: 40px;
-    margin-right: 255px;
+    margin-right: 280px;
 
     font-weight: 700;
     font-size: 32px;
