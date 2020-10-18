@@ -38,12 +38,12 @@ export default function EnterUserLogin() {
                     </Link>
                     <Link to="/sign-up">
                         <button type="button" className="signup-user">
-                            Sign-Up
+                            Cadastre-se
                         </button>
                     </Link>
                 <form className="login-form" onSubmit={handleLogin}>
 
-                    <legend>Sign-In</legend>
+                    <legend>Login</legend>
 
                     <div className="input-block">
                         <label htmlFor="email">E-mail</label>

@@ -15,7 +15,7 @@ export default function CreateUser() {
                         <FiArrowLeft size={24} color="#15b6d6"/>
                     </Link>
                     <form className="sign-up">
-                        <legend>Sign-Up</legend>
+                        <legend>Cadastro</legend>
 
                         <div className="input-block">
                             <label>Nome</label>
