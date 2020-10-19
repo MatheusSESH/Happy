@@ -2,9 +2,9 @@ import React from 'react';
 import { FiArrowRight } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
 
-import '../styles/global.css';
-import '../styles/pages/landing.css';
-import logoImg from '../images/logo.svg';
+import '../../styles/global.css';
+import '../../styles/pages/auth/landing-auth.css';
+import logoImg from '../../images/logo.svg';
 
 
 function Landing() {

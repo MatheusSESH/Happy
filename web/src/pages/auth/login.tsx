@@ -1,18 +1,27 @@
-import React, { useState, FormEvent} from 'react';
+import React, { useState, FormEvent, useContext } from 'react';
 import { Link, useHistory } from 'react-router-dom';
 import { FiArrowLeft } from 'react-icons/fi';
+import AuthContext from '../../context/auth';
 
 import '../../styles/global.css';
-import '../../styles/pages/login-user/login.css'
+import '../../styles/pages/auth/login.css'
 import LoginComponent from '../../components/LoginApp';
 
 import api from '../../services/api';
 
-export default function EnterUserLogin() {
+export default function SignIn() {
     const history = useHistory();
+    const { signed, signIn } = useContext(AuthContext);
+
+    console.log(signed);
 
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
+    
+    function handleAuth(){
+        signIn();
+    }
+
 
     async function handleLogin(event: FormEvent){
         event.preventDefault();
@@ -28,6 +37,7 @@ export default function EnterUserLogin() {
 
         history.push('/dashboard');
     }
+
 
     return (
         <div className="login-content">
@@ -68,7 +78,7 @@ export default function EnterUserLogin() {
                     </div>
 
                     <div className="login-options">
-                        <input type="checkbox" />
+                        <input type="checkbox" onChange={handleAuth} />
                         <label>Lembre-me</label>
                         <Link to="/forgot-password" >
                             Esqueci minha senha

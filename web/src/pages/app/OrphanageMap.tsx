@@ -4,10 +4,10 @@ import { FiPlus, FiArrowRight} from 'react-icons/fi';
 import { Map, TileLayer, Marker, Popup } from 'react-leaflet';
 import leaflet from 'leaflet';
 
-import mapMarkerImg from '../images/map-marker.svg';
+import mapMarkerImg from '../../images/map-marker.svg';
 
-import '../styles/pages/orphanages-map.css';
-import api from '../services/api';
+import '../../styles/pages/app/orphanages-map.css';
+import api from '../../services/api';
 
 const mapIcon = leaflet.icon({
     iconUrl: mapMarkerImg,

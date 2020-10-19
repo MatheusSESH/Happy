@@ -3,11 +3,11 @@ import { FiClock, FiInfo } from "react-icons/fi";
 import { Map, Marker, TileLayer } from "react-leaflet";
 import { useParams } from 'react-router-dom';
 
-import mapIcon from '../utils/mapIcon';
-import Sidebar from "../components/Sidebar";
-import api from "../services/api";
+import mapIcon from '../../utils/mapIcon';
+import Sidebar from "../../components/Sidebar";
+import api from "../../services/api";
 
-import '../styles/pages/orphanage.css';
+import '../../styles/pages/app/orphanage.css';
 
 interface Orpahange {
   latitude: number;

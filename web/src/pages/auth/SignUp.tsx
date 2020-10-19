@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { FiArrowLeft } from 'react-icons/fi';
 
 import '../../styles/global.css';
-import '../../styles/pages/login-user/sign-up.css';
+import '../../styles/pages/auth/sign-up.css';
 import LoginComponent from '../../components/LoginApp'
 
 export default function CreateUser() {

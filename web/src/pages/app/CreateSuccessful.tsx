@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import '../styles/global.css';
-import '../styles/pages/create-successful.css';
+import '../../styles/global.css';
+import '../../styles/pages/app/create-successful.css';
 
 export default function SuccessfulCreatePage(){
     return (
